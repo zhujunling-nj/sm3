@@ -22,4 +22,5 @@ salt = urandom(128)
 print(sm3_hash(data).hex())
 print(sm3_hmac(salt, data).hex())
 
+
 ```
